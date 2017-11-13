@@ -1,0 +1,11 @@
+[push]
+  default = simple
+[core]
+  excludesfile = $HOME/.gitignore_global
+[alias]
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+  name = Jesse Whitham
+  email = jesse.whitham@gmail.com
+[includeIf "gitdir:~/Loyalty/"]
+  path = ~/Loyalty/.gitconfig_loyalty
