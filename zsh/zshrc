@@ -15,6 +15,7 @@ BULLETTRAIN_CONTEXT_HOSTNAME=%M
 # Conditional formatting of hostname for Loyalty
 if [[ $(hostname -s) = "LNZLWLGM3HV2H" ]]; then
     BULLETTRAIN_CONTEXT_HOSTNAME="loyalty"
+    BULLETTRAIN_CONTEXT_DEFAULT_USER=jessew
 fi
 
 # Uncomment the following line to use case-sensitive completion.
