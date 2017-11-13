@@ -7,6 +7,15 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 
 ZSH_THEME="bullet-train"
+# Fiddle with the settings a little
+BULLETTRAIN_CONTEXT_BG="green"
+BULLETTRAIN_CONTEXT_FG="black"
+BULLETTRAIN_CONTEXT_HOSTNAME=%M
+
+# Conditional formatting of hostname for Loyalty
+if [[ $(hostname -s) = "LNZLWLGM3HV2H" ]]; then
+    BULLETTRAIN_CONTEXT_HOSTNAME="loyalty"
+fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
