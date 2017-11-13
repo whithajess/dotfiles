@@ -5,6 +5,10 @@
 - clean: ['~']
 
 - link:
+    ~/.oh-my-zsh: oh-my-zsh/
+    ~/.oh-my-zsh/custom/themes/bullet-train.zsh-theme:
+      create: true
+      path: zsh/themes/bullet-train.zsh-theme
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
