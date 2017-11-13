@@ -16,4 +16,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [./fonts/install.sh]
+  - [./fonts/install.sh] # TODO: Must set Iterm2 to Font - Meslo LG M DZ Regular for Powerline
