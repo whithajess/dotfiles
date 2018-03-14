@@ -20,5 +20,7 @@
   ## Mac Specific
   - [brew install zsh]
   - [brew install git]
+  - [brew install awscli]
   ## Powerline fonts for bullet-train theme.
   - [./fonts/install.sh] # TODO: Must set Iterm2 to Font - Meslo LG M DZ Regular for Powerline
+  ##

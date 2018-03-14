@@ -15,3 +15,4 @@ Using Dotbot 'git clone git@github.com:whithajess/dotfiles.git && cd dotfiles
 * TODO: HELM
 * TODO: KOPS
 * TODO: KUBECTL
+* TODO: AWS
