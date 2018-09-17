@@ -12,7 +12,7 @@
     ~/.zshrc: zsh/zshrc
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
-    ~/Loyalty/.gitconfig_loyalty: git/gitconfig_loyalty
+    ~/rip/.gitconfig_rip: git/gitconfig_rip
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
