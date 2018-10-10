@@ -60,7 +60,7 @@ fi
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git-flow helm kops nyan battery gem brew postgres autojump colorize capistrano knife git bundler osx rake ruby rvm kubectl)
+plugins=(git-flow helm kops battery gem brew postgres autojump colorize capistrano knife git bundler osx rake ruby rvm kubectl)
 
 # User configuration
 
