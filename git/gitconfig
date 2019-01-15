@@ -7,5 +7,5 @@
 [user]
   name = Jesse Whitham
   email = jesse.whitham@gmail.com
-[includeIf "gitdir:~/Loyalty/"]
-  path = ~/Loyalty/.gitconfig_loyalty
+[includeIf "gitdir:~/rip/"]
+  path = ~/rip/.gitconfig_rip
