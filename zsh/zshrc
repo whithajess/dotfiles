@@ -60,7 +60,7 @@ fi
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git-flow helm kops battery gem brew postgres autojump colorize capistrano knife git bundler osx rake ruby rvm kubectl)
+plugins=(git-flow helm kops battery gem brew postgres autojump colorize capistrano knife git osx rake ruby rvm kubectl)
 
 # User configuration
 
@@ -143,6 +143,9 @@ export PATH=$PATH:/usr/local/sbin
 
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
+
+# Flutter
+export PATH="$PATH:/Users/jesse/flutter/bin"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jesse/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jesse/Downloads/google-cloud-sdk/path.zsh.inc'; fi
