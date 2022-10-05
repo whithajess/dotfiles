@@ -60,7 +60,7 @@ fi
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git-flow helm kops battery gem brew postgres autojump colorize capistrano knife git osx rake ruby rvm kubectl)
+plugins=(git-flow helm kops battery gem brew postgres autojump colorize capistrano knife git macos rake ruby rvm kubectl)
 
 # User configuration
 
@@ -133,6 +133,17 @@ export PATH=$PATH:$GOROOT/bin
 # added by travis gem
 [ -f /Users/jessew/.travis/travis.sh ] && source /Users/jessew/.travis/travis.sh
 
+# Java
+export JAVA_HOME=/Users/jesse/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin/
+
+# Android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -162,3 +173,4 @@ export PATH="$HOME/.serverless/bin:$PATH"
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /Users/jesse/.nvm/versions/node/v16.1.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/jesse/.nvm/versions/node/v16.1.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
